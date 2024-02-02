@@ -23,6 +23,7 @@
 let g:colors_name = 'horror'
 
 hi clear
+set background=dark
 hi Normal ctermbg=232
 hi TabLineFill ctermfg=NONE ctermbg=232 cterm=NONE
 
