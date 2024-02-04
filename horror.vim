@@ -23,7 +23,7 @@
 "and put this file in that folder
 " *****
 
-"forces terminal to recognize 256-bit colors, 0 to 255
+"forces vim terminal to recognize 256-bit colors, 0 to 255
 set t_Co=256
 
 "configures vim colors for
@@ -79,3 +79,13 @@ hi Typedef ctermfg=226 guifg=#ffff00
 hi Structure ctermfg=220 guifg=#ffdf00
 hi Number ctermfg=220 guifg=#ffdf00
 hi vimCommand ctermfg=220 guifg=#ffdf00
+
+"links to colorgroups already used
+hi! link SpecialKey Special
+hi! link PmenuSbar Pmenu
+hi! link PmenuThumb Pmenu
+hi! link MatchParen Search
+hi! link ToolbarLine Search   
+hi! link ToolbarButton Search
+hi! link StatusLineTerm StatusLine
+hi! link StatusLineTermNC StatusLineNC
