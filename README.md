@@ -1,7 +1,6 @@
 # About
 
 ![horror-split](horror-split.jpg)
-![horror-tabs](horror-tabs.jpg)
 
 # Install for linux/mac
 
