@@ -12,16 +12,7 @@
 "220: light orange (#ffdf00)
 "22: medium green (#005f00)
 
-" *****
-"uncomment the line below if you want to add
-"this to the other colorschemes that come with vim:
-
 "let g:colors_name = 'horror'
-"
-"for this to work, find where your other colorschemes are
-"located (you can see them with ":colorscheme<space><ctrl+d>")
-"and put this file in that folder
-" *****
 
 "forces vim terminal to recognize 256-bit colors, 0 to 255
 set t_Co=256
